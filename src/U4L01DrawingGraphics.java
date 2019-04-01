@@ -28,9 +28,9 @@ public class U4L01DrawingGraphics extends JFrame {
 	        add(titlePanel, BorderLayout.PAGE_START);
 	        Font titleFont = new Font("Fish&Chips", Font.BOLD, 32);
 	        JLabel titleLabel = new JLabel("Drawing Examples");
-	        titleLabel.setBackground(Color.BLACK);
+	        titleLabel.setBackground(new Color(241, 169, 242));
 	        titleLabel.setOpaque(true);
-	        titleLabel.setForeground(Color.WHITE);
+	        titleLabel.setForeground(new Color(107, 158, 239));
 	        titleLabel.setFont(titleFont);
 	        titleLabel.setHorizontalAlignment(JLabel.CENTER);
 	        titlePanel.add(titleLabel);
